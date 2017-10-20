@@ -1,0 +1,21 @@
+{
+    "name": "rojer/wxxcx",
+    "description": "A WeChat applet (xiaochengxu) plugins for Laravel 5.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rojer",
+            "email": "rojerchen@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "~5"
+    },
+    "autoload": { 
+        "psr-4": {
+            "Rojer\\Wxxcx\\": "src/"
+        } 
+    }
+}
